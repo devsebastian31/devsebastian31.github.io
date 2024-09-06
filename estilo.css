@@ -108,17 +108,16 @@ body {
 @media (min-width: 320px) and (max-width: 480px) {
     .Info {
         display: inline-block;
-        margin-top:30px;
-        margin-left: 20px;
-        font-size: 14px;
+        margin-top: 30px;
+        margin-left: 50px;
     }
 
     .Info img {
-        margin-left: 35px;
+        margin-left: 100px;
         float: none;
     }
 
     .Info p {
-        padding-right: 240px;
+        padding-right: 150px
     }
 }
