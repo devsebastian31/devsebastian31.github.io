@@ -15,15 +15,16 @@ body {
 }
 
 #particles-js {
-	height: 350px; 
+	height: 380px; 
 	width: 100%;
     position: absolute;
 }
 
 .Info {
     display: inline-block;
-    margin-top: 150px;
+    margin-top: 140px;
     margin-left: 300px;
+    opacity: .99;
 }
 
 .Info p {
@@ -31,12 +32,21 @@ body {
     padding-right: 575px;
 }
 
+.Info img {
+    margin-right: 300px;
+    float: right;
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .Info {
         display: inline-block;
         margin-top: 150px;
         margin-left: 100px;
+    }
+
+    .Info p {
+        padding-top: 15px;
+        padding-right: 575px;
     }
 }
 
@@ -51,7 +61,16 @@ body {
     .Info {
         display: inline-block;
         margin-top: 100px;
-        margin-left: 40px;
+        margin-left: 100px;
+    }
+
+    .Info p {
+        padding-top: 15px;
+        padding-right: 370px;
+    }
+
+    .Info img{
+        margin-right: 100px;
     }
 }
 
@@ -65,8 +84,17 @@ body {
 @media (min-width: 481px) and (max-width: 767px) {
     .Info {
         display: inline-block;
-        margin-top: 100px;
+        margin-top:30px;
         margin-left: 20px;
+    }
+
+    .Info img {
+        margin-left: 150px;
+        float: none;
+    }
+
+    .Info p {
+        padding-right: 120px;
     }
 }
 
@@ -80,7 +108,17 @@ body {
 @media (min-width: 320px) and (max-width: 480px) {
     .Info {
         display: inline-block;
-        margin-top: 100px;
+        margin-top:30px;
         margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .Info img {
+        margin-left: 35px;
+        float: none;
+    }
+
+    .Info p {
+        padding-right: 240px;
     }
 }
