@@ -1,0 +1,86 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    word-spacing: 1px;
+}
+
+body {
+    background-color:#0d0d12;
+    color: #fff;
+}
+
+#particles-js {
+	height: 350px; 
+	width: 100%;
+    position: absolute;
+}
+
+.Info {
+    display: inline-block;
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+.Info p {
+    padding-top: 15px;
+    padding-right: 575px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .Info {
+        display: inline-block;
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+}
+
+
+
+/* 
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+  
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .Info {
+        display: inline-block;
+        margin-top: 100px;
+        margin-left: 40px;
+    }
+}
+
+
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+  
+@media (min-width: 481px) and (max-width: 767px) {
+    .Info {
+        display: inline-block;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+}
+
+
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+  
+@media (min-width: 320px) and (max-width: 480px) {
+    .Info {
+        display: inline-block;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+}
