@@ -15,7 +15,7 @@ body {
 }
 
 #particles-js {
-	height: 400px; 
+	height: 370px; 
 	width: 100%;
     position: absolute;
     border-bottom: 1px solid #373d48;
@@ -23,7 +23,7 @@ body {
 
 .Info {
     display: inline-block;
-    margin-top: 140px;
+    margin-top: 100px;
     margin-left: 300px;
     opacity: .99;
 }
@@ -79,6 +79,10 @@ body {
 */
   
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #particles-js {
+        height: 350px; 
+    }
+
     .Info {
         display: inline-block;
         margin-top: 100px;
@@ -103,6 +107,10 @@ body {
 */
   
 @media (min-width: 481px) and (max-width: 767px) {
+    #particles-js {
+        height: 400px; 
+    }
+
     .Info {
         display: inline-block;
         margin-top:30px;
@@ -127,6 +135,10 @@ body {
 */
   
 @media (min-width: 320px) and (max-width: 480px) {
+    #particles-js {
+        height: 420px; 
+    }
+
     .Info {
         display: inline-block;
         margin-top: 30px;
@@ -135,10 +147,15 @@ body {
 
     .Info img {
         margin-left: 70px;
+        margin-right: 86px;
         float: none;
     }
     
     .Info p {
-        padding-right: 220px;
+        padding-right: 10px;
+    }
+
+    .Social {
+        padding-bottom: 500px;
     }
 }
