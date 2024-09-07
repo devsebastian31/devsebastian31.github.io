@@ -15,9 +15,10 @@ body {
 }
 
 #particles-js {
-	height: 380px; 
+	height: 400px; 
 	width: 100%;
     position: absolute;
+    border-bottom: 1px solid #373d48;
 }
 
 .Info {
@@ -35,6 +36,26 @@ body {
 .Info img {
     margin-right: 300px;
     float: right;
+}
+
+.Social {
+    margin-top: 10px;
+}
+
+.Social a{
+	text-decoration: none;
+	color: white;
+}
+
+.Social a:hover {
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+
+.Social i {
+	border-radius: 50%;
+	border: 1px solid #373d48;
+	padding: 5px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
