@@ -15,7 +15,7 @@ body {
 }
 
 #particles-js {
-	height: 370px; 
+	height: 380px; 
 	width: 100%;
     position: absolute;
     border-bottom: 1px solid #373d48;
@@ -23,7 +23,7 @@ body {
 
 .Info {
     display: inline-block;
-    margin-top: 100px;
+    margin-top: 120px;
     margin-left: 300px;
     opacity: .99;
 }
@@ -58,6 +58,37 @@ body {
 	padding: 5px;
 }
 
+.Proyectos {
+    margin-top: 150px;
+    margin-left: 100px;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.Proyecto {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.Texto {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.Proyecto img {
+    border-radius: 1rem;
+}
+
+
+
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .Info {
         display: inline-block;
@@ -80,7 +111,7 @@ body {
   
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     #particles-js {
-        height: 350px; 
+        height: 380px; 
     }
 
     .Info {
@@ -94,8 +125,33 @@ body {
         padding-right: 370px;
     }
 
-    .Info img{
+    .Info img {
         margin-right: 100px;
+    }
+
+    .Proyectos {
+        margin-top: 150px;
+        margin-left: 50px;
+        font-weight: 600;
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    .Proyecto {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        object-fit: cover;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Texto {
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 20px;
     }
 }
 
@@ -124,6 +180,36 @@ body {
 
     .Info p {
         padding-right: 120px;
+    }
+
+    .Proyectos {
+        margin-top: 100px;
+        margin-left: 50px;
+        font-weight: 600;
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    .Proyecto {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        object-fit: cover;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Texto {
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .Proyecto img {
+        width: 450px;
+        height: 200px;
     }
 }
 
@@ -155,7 +241,33 @@ body {
         padding-right: 10px;
     }
 
-    .Social {
-        padding-bottom: 500px;
+    .Proyectos {
+        margin-top: 70px;
+        margin-left: 20px;
+        font-weight: 600;
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    .Proyecto {
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+        object-fit: cover;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Texto {
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .Proyecto img {
+        width: 330px;
+        height: 170px;
     }
 }
