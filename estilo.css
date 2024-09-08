@@ -66,6 +66,7 @@ body {
     margin-bottom: 2.5rem;
     display: flex;
     align-items: center;
+    gap: 2rem;
 }
 
 .Proyecto {
@@ -75,6 +76,7 @@ body {
     object-fit: cover;
     display: flex;
     flex-direction: row;
+    gap: 1rem;
 }
 
 .Texto {
@@ -89,7 +91,28 @@ body {
 }
 
 p {
-    margin-right: 10px;
+    margin-right: 100px;
+}
+
+.Codigo {
+    width: 120px;
+    padding: 9px 15px;
+    margin-top: 10px;
+    border-radius: .5rem;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.Codigo:hover {
+    transform: scale(1.1); /* Aumenta el tamaño */
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.701); /* Sombra */
+}
+
+.Codigo a {
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -159,7 +182,7 @@ p {
         font-size: 20px;
     }
 
-    .Texto img {
+    .icono{
         width: 68;
         height: 55;
     }
@@ -222,7 +245,7 @@ p {
         height: 200px;
     }
 
-    #icono {
+    .icono {
         width: 68;
         height: 55;
     }
@@ -289,5 +312,9 @@ p {
     .icono {
         width: 68;
         height: 55;
+    }
+
+    p {
+        margin-right: 10px;
     }
 }
