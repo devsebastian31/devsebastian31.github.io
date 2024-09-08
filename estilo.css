@@ -94,10 +94,15 @@ p {
     margin-right: 100px;
 }
 
+.link {
+    display: flex;
+}
+
 .Codigo {
     width: 120px;
     padding: 9px 15px;
     margin-top: 10px;
+    margin-right: 20px;
     border-radius: .5rem;
     background-color: white;
     color: black;
@@ -116,6 +121,42 @@ p {
 }
 
 
+.sitio {
+    width: 140px;
+    padding: 9px 15px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: .5rem;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.sitio:hover {
+    transform: scale(1.1); /* Aumenta el tamaño */
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.701); /* Sombra */
+}
+
+.sitio a {
+    text-decoration: none;
+    color: black;
+}
+
+.Habilidades {
+    margin-top: 100px;
+    margin-left: 100px;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.lenguajes {
+    display: flex;
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .Info {
