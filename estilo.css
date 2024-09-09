@@ -205,6 +205,14 @@ body {
     gap: 8px;
 }
 
+.person {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    margin-right: 100px;
+}
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .Info {
