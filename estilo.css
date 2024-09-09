@@ -78,6 +78,10 @@ body {
     gap: 1rem;
 }
 
+.Proyecto {
+    margin-right: 40px;
+}
+
 .Texto {
     margin-left: 10px;
     font-size: 20px;
@@ -89,9 +93,6 @@ body {
     width: 600px;
 }
 
-p {
-    margin-right: 100px;
-}
 
 .link {
     display: flex;
@@ -176,23 +177,34 @@ p {
     gap: 2rem;
 }
 
-.lenguajes {
+.interfaz {
     margin-left: 100px;
-    display: flex;
+}
+
+.lenguajes {
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
+    grid-auto-rows: 1fr;
+    grid-auto-flow: dense;
+    grid-gap: .8rem;
 }
 
 .lenguaje {
-    width: 70px;
     border-radius: .5rem;
-    border: 1px solid white;
-    background: #252526;
+    border: 1px solid rgb(37, 36, 36);
+    background-image: linear-gradient(to right top, #000000, #0a0809, #110f11, #161417, #19191d);
     padding: 1rem;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
 
-.lenguajes p {
-    margin-left: 18px;
-}
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .Info {
@@ -334,6 +346,18 @@ p {
     .Repositorio {
         margin-left: 350px;
     }
+
+    .Habilidades {
+        margin-left: 50px;
+    }
+
+    .lenguajes {
+        margin-left: 40px;
+    }
+
+    .interfaz {
+        margin-left: 50px;
+    }
 }
 
 
@@ -366,8 +390,7 @@ p {
 
     .Proyectos {
         margin-top: 70px;
-        margin-left: 20px;
-        font-weight: 600;
+        margin-left: 20px;        font-weight: 600;
         font-size: 2.5rem;
         margin-bottom: 2.5rem;
         display: flex;
@@ -413,5 +436,17 @@ p {
 
     .lenguajes {
         margin-left: 30px;
+    }
+
+    .Habilidades {
+        margin-left: 30px;
+    }
+
+    .lenguajes {
+        margin-left: 10px;
+    }
+
+    .interfaz {
+        margin-left: 20px;
     }
 }
