@@ -245,6 +245,10 @@ form {
     padding-top: 20px;
 }
 
+#result-container {
+    margin-left: 450px;
+}
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .Info {
