@@ -213,6 +213,38 @@ body {
     margin-right: 100px;
 }
 
+.mensaje {
+    width: 100%;
+    padding: 9px 15px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: .5rem;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.mensaje:hover {
+    transform: scale(1.1); /* Aumenta el tamaño */
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.701); /* Sombra */
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+form {
+    display: grid;
+    grid-gap: 1rem;
+    max-width: 400px;
+    margin: auto;
+    padding-top: 20px;
+}
+
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .Info {
