@@ -1,7 +1,6 @@
 * { 
     margin: 0; 
     padding: 0; 
-    box-sizing: border-box;
     font-family: "Reddit Sans Condensed", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -10,8 +9,8 @@
 }
 
 body {
-    background-color:#0d0d12;
-    color: #fff;
+    color: white;
+    background-image: linear-gradient(to right top, #000000, #0a0809, #110f11, #161417, #19191d);
 }
 
 #particles-js {
@@ -99,7 +98,7 @@ p {
 }
 
 .Codigo {
-    width: 120px;
+    width: 90px;
     padding: 9px 15px;
     margin-top: 10px;
     margin-right: 20px;
@@ -120,9 +119,32 @@ p {
     color: black;
 }
 
+.Repositorio {
+    width: 60px;
+    padding: 9px 15px;
+    margin-left: 620px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: .5rem;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.Repositorio:hover {
+    transform: scale(1.1); /* Aumenta el tamaño */
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.701); /* Sombra */
+}
+
+.Repositorio a {
+    text-decoration: none;
+    color: black;
+}
+
 
 .sitio {
-    width: 140px;
+    width: 110px;
     padding: 9px 15px;
     margin-top: 10px;
     margin-right: 20px;
@@ -155,7 +177,21 @@ p {
 }
 
 .lenguajes {
+    margin-left: 100px;
     display: flex;
+}
+
+.lenguaje {
+    width: 70px;
+    border-radius: .5rem;
+    border: 1px solid white;
+    background: #252526;
+    padding: 1rem;
+    margin: 10px;
+}
+
+.lenguajes p {
+    margin-left: 18px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -227,6 +263,10 @@ p {
         width: 68;
         height: 55;
     }
+
+    .Repositorio {
+        margin-left: 350px;
+    }
 }
 
 
@@ -289,6 +329,10 @@ p {
     .icono {
         width: 68;
         height: 55;
+    }
+
+    .Repositorio {
+        margin-left: 350px;
     }
 }
 
@@ -357,5 +401,17 @@ p {
 
     p {
         margin-right: 10px;
+    }
+
+    .Repositorio {
+        margin-left: 130px;
+    }
+
+    .Habilidades {
+        margin-left: 30px;
+    }
+
+    .lenguajes {
+        margin-left: 30px;
     }
 }
