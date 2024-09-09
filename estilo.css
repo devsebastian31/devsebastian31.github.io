@@ -457,4 +457,8 @@ body {
     .interfaz {
         margin-left: 20px;
     }
+
+    .person {
+        margin-right: 20px;
+    }
 }
