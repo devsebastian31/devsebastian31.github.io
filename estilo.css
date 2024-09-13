@@ -8,10 +8,28 @@
     word-spacing: 1px;
 }
 
+/* Aplicar la animación al body */
 body {
     color: white;
     background-image: linear-gradient(to right top, #000000, #0a0809, #110f11, #161417, #19191d);
+    animation: fadeIn 2s ease-in-out;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
+
+/* Animación de desvanecimiento para el body */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 #particles-js {
 	height: 380px; 
@@ -196,6 +214,7 @@ body {
     border-radius: .5rem;
     border: 1px solid rgb(37, 36, 36);
     background-image: linear-gradient(to right top, #000000, #0a0809, #110f11, #161417, #19191d);
+    box-shadow: 0 5px 15px rgb(29, 25, 25);
     padding: 1rem;
     margin: 10px;
     display: flex;
