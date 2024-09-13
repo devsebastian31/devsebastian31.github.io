@@ -214,7 +214,7 @@ body {
     border-radius: .5rem;
     border: 1px solid rgb(37, 36, 36);
     background-image: linear-gradient(to right top, #000000, #0a0809, #110f11, #161417, #19191d);
-    box-shadow: 0 5px 15px rgb(29, 25, 25);
+    box-shadow: 0 5px 15px rgb(42, 42, 42);
     padding: 1rem;
     margin: 10px;
     display: flex;
@@ -222,7 +222,15 @@ body {
     justify-content: center;
     align-items: center;
     gap: 8px;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    padding: 20px;
 }
+
+.lenguaje:hover {
+    transform: scale(1.1); /* Aumenta el tamaño */
+}
+
 
 .person {
     font-size: 22px;
