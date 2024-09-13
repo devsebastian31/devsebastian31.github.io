@@ -38,6 +38,7 @@ body {
     border-bottom: 1px solid #373d48;
 }
 
+
 .Info {
     display: inline-block;
     margin-top: 120px;
@@ -108,7 +109,7 @@ body {
 .Imagen {
     border-radius: 1rem;
     height: 290px;
-    width: 600px;
+    width: 500px;
 }
 
 
@@ -210,6 +211,7 @@ body {
     grid-gap: .8rem;
 }
 
+
 .lenguaje {
     border-radius: .5rem;
     border: 1px solid rgb(37, 36, 36);
@@ -225,12 +227,13 @@ body {
     transition: all 0.3s ease;
     border-radius: 10px;
     padding: 20px;
+    transform-style: preserve-3d;
+    transform: perspective(300px) rotateY(20deg);
 }
 
 .lenguaje:hover {
     transform: scale(1.1); /* Aumenta el tamaño */
 }
-
 
 .person {
     font-size: 22px;
