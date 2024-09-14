@@ -87,29 +87,43 @@ body {
     gap: 2rem;
 }
 
-.Proyecto {
+.Proyectos-container {
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 130px;
     margin-bottom: 50px;
     object-fit: cover;
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en múltiples filas */
 }
 
 .Proyecto {
-    margin-right: 40px;
+    margin-right: 100px;
+    border: 1px solid rgb(37, 36, 36);
+    background-image: linear-gradient(to right top, #000000, #0a0809, #110f11, #161417, #19191d);
+    box-shadow: 0 5px 15px rgb(58, 58, 58);
+    border-radius: .5rem;
+    display: block;
+    width: 500px;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.Proyecto:hover {
+    transform: scale(1.1); /* Aumenta el tamaño */
+    border: 1px solid rgb(99, 97, 97);
 }
 
 .Texto {
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 
 .Imagen {
-    border-radius: 1rem;
-    height: 290px;
-    width: 500px;
+    border-radius: 9px 9px 0 0;
+    height: 250px;
+    width: 100%;
 }
 
 
@@ -118,7 +132,7 @@ body {
 }
 
 .Codigo {
-    width: 90px;
+    width: 70px;
     padding: 9px 15px;
     margin-top: 10px;
     margin-right: 20px;
@@ -164,7 +178,7 @@ body {
 
 
 .sitio {
-    width: 110px;
+    width: 80px;
     padding: 9px 15px;
     margin-top: 10px;
     margin-right: 20px;
@@ -216,7 +230,7 @@ body {
     border-radius: .5rem;
     border: 1px solid rgb(37, 36, 36);
     background-image: linear-gradient(to right top, #000000, #0a0809, #110f11, #161417, #19191d);
-    box-shadow: 0 5px 15px rgb(42, 42, 42);
+    box-shadow: 0 5px 15px rgb(58, 58, 58);
     padding: 1rem;
     margin: 10px;
     display: flex;
@@ -233,6 +247,7 @@ body {
 
 .lenguaje:hover {
     transform: scale(1.1); /* Aumenta el tamaño */
+    border: 1px solid rgb(99, 97, 97);
 }
 
 .person {
@@ -330,13 +345,17 @@ form {
         align-items: center;
     }
     
-    .Proyecto {
+    .Proyectos-container {
         margin-top: 50px;
         margin-left: 50px;
         margin-bottom: 50px;
         object-fit: cover;
         display: flex;
         flex-direction: column;
+    }
+
+    .Proyecto {
+        margin-top: 40px;
     }
     
     .Texto {
@@ -392,13 +411,17 @@ form {
         align-items: center;
     }
     
-    .Proyecto {
+    .Proyectos-container {
         margin-top: 50px;
         margin-left: 50px;
         margin-bottom: 50px;
         object-fit: cover;
         display: flex;
         flex-direction: column;
+    }
+
+    .Proyecto {
+        margin-top: 40px;
     }
     
     .Texto {
@@ -464,22 +487,36 @@ form {
 
     .Proyectos {
         margin-top: 70px;
-        margin-left: 20px;        font-weight: 600;
+        margin-left: 20px;        
+        font-weight: 600;
         font-size: 2.5rem;
         margin-bottom: 2.5rem;
         display: flex;
         align-items: center;
     }
     
-    .Proyecto {
-        margin-top: 50px;
+    .Proyectos-container {
+        margin-top: 10px;
         margin-left: 20px;
         margin-bottom: 50px;
         object-fit: cover;
         display: flex;
         flex-direction: column;
     }
+
+    .Proyecto {
+        margin-top: 40px;
+        width: 329px;
+    }
+
+    .Codigo {
+        width: 90px;
+    }
     
+    .sitio{
+        width: 110px;
+    }
+
     .Texto {
         margin-top: 20px;
         margin-left: 10px;
