@@ -357,6 +357,14 @@ form {
     .Proyecto {
         margin-top: 40px;
     }
+
+    .Codigo {
+        width: 90px;
+    }
+    
+    .sitio{
+        width: 110px;
+    }
     
     .Texto {
         margin-top: 20px;
@@ -422,6 +430,14 @@ form {
 
     .Proyecto {
         margin-top: 40px;
+    }
+
+    .Codigo {
+        width: 90px;
+    }
+    
+    .sitio{
+        width: 110px;
     }
     
     .Texto {
