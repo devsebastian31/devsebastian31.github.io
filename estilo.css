@@ -123,12 +123,13 @@ body {
 
 .Proyectos-container {
     margin-top: 50px;
-    margin-left: 130px;
     margin-bottom: 50px;
     object-fit: cover;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; /* Permitir que los elementos se envuelvan en múltiples filas */
+    align-items: center;
+    justify-content: center;
 }
 
 .Proyecto {
