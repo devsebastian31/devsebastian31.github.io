@@ -136,17 +136,19 @@ body {
     margin-right: 100px;
     border: 1px solid rgb(37, 36, 36);
     background-image: linear-gradient(to right top, #000000, #0a0809, #110f11, #161417, #19191d);
-    box-shadow: 0 5px 15px rgb(58, 58, 58);
+    box-shadow: 0 10px 20px rgb(58, 58, 58);
     border-radius: .5rem;
     display: block;
     width: 500px;
     height: 100%;
-    transition: all 0.3s ease;
+    transition: all 1s ease;
 }
 
 .Proyecto:hover {
     transform: scale(1.1); /* Aumenta el tamaño */
     border: 1px solid rgb(99, 97, 97);
+    box-shadow: 0 15px 25px rgb(58, 58, 58);
+    background-image: linear-gradient(to right top, #101012, #1c1c1e, #28282a, #343437, #414144);
 }
 
 .Texto {
@@ -262,7 +264,7 @@ body {
     border-radius: .5rem;
     border: 1px solid rgb(37, 36, 36);
     background-image: linear-gradient(to right top, #000000, #0a0809, #110f11, #161417, #19191d);
-    box-shadow: 0 5px 15px rgb(58, 58, 58);
+    box-shadow: 0 10px 20px rgb(58, 58, 58);
     padding: 1rem;
     margin: 10px;
     display: flex;
@@ -270,7 +272,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 8px;
-    transition: all 0.3s ease;
+    transition: all 1s ease;
     border-radius: 10px;
     padding: 20px;
     transform-style: preserve-3d;
@@ -280,6 +282,8 @@ body {
 .lenguaje:hover {
     transform: scale(1.1); /* Aumenta el tamaño */
     border: 1px solid rgb(99, 97, 97);
+    box-shadow: 0 15px 25px rgb(58, 58, 58);
+    background-image: linear-gradient(to right top, #101012, #1c1c1e, #28282a, #343437, #414144);
 }
 
 .mensaje {
