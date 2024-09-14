@@ -428,6 +428,7 @@ form {
         display: inline-block;
         margin-top:30px;
         margin-left: 20px;
+        width: 538px;
     }
 
     .Info img {
@@ -451,7 +452,7 @@ form {
     
     .Proyectos-container {
         margin-top: 50px;
-        margin-left: 50px;
+        margin-left: 10px;
         margin-bottom: 50px;
         object-fit: cover;
         display: flex;
@@ -460,6 +461,7 @@ form {
 
     .Proyecto {
         margin-top: 40px;
+        width: 450px;
     }
 
     .Codigo {
@@ -524,6 +526,7 @@ form {
         display: inline-block;
         margin-top: 30px;
         margin-left: 20px;
+        width: 333px;
     }
 
     .Info img {
@@ -548,7 +551,7 @@ form {
     
     .Proyectos-container {
         margin-top: 10px;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-bottom: 50px;
         object-fit: cover;
         display: flex;
