@@ -11,7 +11,7 @@
 /* Aplicar la animación al body */
 body {
     color: white;
-    background-image: linear-gradient(to right top, #000000, #0a0809, #110f11, #161417, #19191d);
+    background-image: linear-gradient(to right top, #070707, #0f0f10, #151517, #19191d, #1e1e23);
     animation: fadeIn 2s ease-in-out;
     margin: 0;
     padding: 0;
@@ -135,7 +135,7 @@ body {
 .Proyecto {
     margin-right: 100px;
     border: 1px solid rgb(37, 36, 36);
-    background-image: linear-gradient(to right top, #000000, #0a0809, #110f11, #161417, #19191d);
+    background-image: linear-gradient(to right top, #111112, #161618, #1b1b1e, #1f1f24, #24242a);
     box-shadow: 0 10px 20px rgb(58, 58, 58);
     border-radius: .5rem;
     display: block;
@@ -148,7 +148,7 @@ body {
     transform: scale(1.1); /* Aumenta el tamaño */
     border: 1px solid rgb(99, 97, 97);
     box-shadow: 0 15px 25px rgb(58, 58, 58);
-    background-image: linear-gradient(to right top, #101012, #1c1c1e, #28282a, #343437, #414144);
+    background-image: linear-gradient(to right top, #161618, #1b1b1e, #202025, #25252b, #2a2a32);
 }
 
 .Texto {
@@ -263,7 +263,7 @@ body {
 .lenguaje {
     border-radius: .5rem;
     border: 1px solid rgb(37, 36, 36);
-    background-image: linear-gradient(to right top, #000000, #0a0809, #110f11, #161417, #19191d);
+    background-image: linear-gradient(to right top, #111112, #161618, #1b1b1e, #1f1f24, #24242a);
     box-shadow: 0 10px 20px rgb(58, 58, 58);
     padding: 1rem;
     margin: 10px;
@@ -275,15 +275,15 @@ body {
     transition: all 1s ease;
     border-radius: 10px;
     padding: 20px;
-    transform-style: preserve-3d;
-    transform: perspective(300px) rotateY(20deg);
+    text-align: center;
 }
+
 
 .lenguaje:hover {
     transform: scale(1.1); /* Aumenta el tamaño */
     border: 1px solid rgb(99, 97, 97);
     box-shadow: 0 15px 25px rgb(58, 58, 58);
-    background-image: linear-gradient(to right top, #101012, #1c1c1e, #28282a, #343437, #414144);
+    background-image: linear-gradient(to right top, #161618, #1b1b1e, #202025, #25252b, #2a2a32);
 }
 
 .mensaje {
