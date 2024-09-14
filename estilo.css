@@ -76,6 +76,40 @@ body {
 	padding: 5px;
 }
 
+.interfaz {
+    margin-left: 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Foto {
+    flex: 1;
+}
+
+.Foto img {
+    margin-right: 20px;
+	object-fit: cover;
+	border-radius: 50%;
+    width: 20rem;
+    height: 18rem;
+    border: 2px solid rgb(99, 97, 97);
+}
+
+.person {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.person p {
+    margin-bottom: 1rem;
+}
+
 .Proyectos {
     margin-top: 150px;
     margin-left: 100px;
@@ -200,7 +234,7 @@ body {
 }
 
 .Habilidades {
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 100px;
     font-weight: 600;
     font-size: 2.5rem;
@@ -210,9 +244,6 @@ body {
     gap: 2rem;
 }
 
-.interfaz {
-    margin-left: 100px;
-}
 
 .lenguajes {
     margin-top: 20px;
@@ -248,14 +279,6 @@ body {
 .lenguaje:hover {
     transform: scale(1.1); /* Aumenta el tamaño */
     border: 1px solid rgb(99, 97, 97);
-}
-
-.person {
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 1.5;
-    margin-bottom: 1rem;
-    margin-right: 100px;
 }
 
 .mensaje {
@@ -380,6 +403,13 @@ form {
     .Repositorio {
         margin-left: 350px;
     }
+
+    .interfaz {
+        margin-left: 50px;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
 }
 
 
@@ -469,7 +499,12 @@ form {
     }
 
     .interfaz {
-        margin-left: 50px;
+        margin-left: 40px;
+    }
+
+    .person {
+        flex-direction: column;
+        margin-right: 20px;
     }
 }
 
@@ -579,5 +614,6 @@ form {
 
     .person {
         margin-right: 20px;
+        flex-direction: column;
     }
 }
