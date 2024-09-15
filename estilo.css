@@ -330,15 +330,6 @@ form {
     align-items: center;
 }
 
-.diseñado a{
-	text-decoration: none;
-	color: white;
-}
-
-.diseñado a:hover {
-	text-decoration: underline;
-	text-decoration-color: white;
-}
 
 .diseñado i {
 	border-radius: 50%;
@@ -355,6 +346,8 @@ form {
 
 .redes a {
     padding: 10px;
+    text-decoration: none;
+	color: white;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
