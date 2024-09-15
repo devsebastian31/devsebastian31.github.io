@@ -1,0 +1,405 @@
+/* 
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+  
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #particles-js {
+        height: 380px; 
+    }
+
+    .Info {
+        display: inline-block;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+
+    .Info p {
+        padding-top: 15px;
+        padding-right: 370px;
+    }
+
+    .Info img {
+        margin-right: 100px;
+    }
+
+    .Proyectos {
+        margin-top: 150px;
+        margin-left: 50px;
+        font-weight: 600;
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    .Proyectos-container {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        object-fit: cover;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Proyecto {
+        margin-top: 40px;
+    }
+
+    .Codigo {
+        width: 90px;
+    }
+    
+    .sitio{
+        width: 110px;
+    }
+    
+    .Texto {
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .icono{
+        width: 68;
+        height: 55;
+    }
+
+    .Repositorio {
+        margin-left: 350px;
+    }
+
+    .interfaz {
+        margin-left: 50px;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+}
+
+
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+  
+@media (min-width: 481px) and (max-width: 767px) {
+    #particles-js {
+        height: 400px; 
+    }
+
+    .Info {
+        display: inline-block;
+        margin-top:30px;
+        margin-left: 20px;
+        width: 500px;
+    }
+
+    .Info img {
+        margin-left: 150px;
+        float: none;
+    }
+
+    .Info p {
+        padding-right: 120px;
+    }
+
+    .Proyectos {
+        margin-top: 100px;
+        margin-left: 50px;
+        font-weight: 600;
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    .Proyectos-container {
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+        object-fit: cover;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Proyecto {
+        margin-top: 40px;
+        width: 450px;
+    }
+
+    .Codigo {
+        width: 90px;
+    }
+    
+    .sitio{
+        width: 110px;
+    }
+    
+    .Texto {
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .Imagen{
+        width: 450px;
+        height: 200px;
+    }
+
+    .icono {
+        width: 68;
+        height: 55;
+    }
+
+    .Repositorio {
+        margin-left: 350px;
+    }
+
+    .Habilidades {
+        margin-left: 50px;
+    }
+
+    .lenguajes {
+        margin-left: 40px;
+    }
+
+    .interfaz {
+        margin-left: 40px;
+    }
+
+    .person {
+        flex-direction: column;
+        margin-right: 20px;
+    }
+
+    section {
+        margin-left: 50px;
+    }
+
+    form {
+        display: grid;
+        grid-gap: 1rem;
+        max-width: 380px;
+        width: 100%;
+        margin: auto;
+        padding: 30px;
+        border: 1px solid rgb(37, 36, 36);
+        background-image: linear-gradient(to right top, #111112, #161618, #1b1b1e, #1f1f24, #24242a);
+        box-shadow: 0 10px 20px rgb(58, 58, 58);
+        border-radius: .5rem;
+        transition: all 1s ease;
+    }
+
+    input {
+        color: white;
+        background: transparent;
+        border-radius: 1rem;
+        font-size: 1rem;
+        outline: none;
+        margin-bottom: 2rem;
+        letter-spacing: 1px;
+        padding: 10px;
+        border: 1px solid rgb(99, 97, 97);
+    }
+    
+    textarea {
+        color: white;
+        background: transparent;
+        border-radius: 1rem;
+        font-size: 1rem;
+        outline: none;
+        margin-bottom: 2rem;
+        letter-spacing: 1px;
+        padding: 10px;
+        resize: none;
+        border: 1px solid rgb(99, 97, 97);
+    }
+    
+    .buttom {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .mensaje {
+        border: none;
+        max-width: 200px;
+        padding: .8rem 1rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: 1s all;
+    }
+}
+
+
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+  
+@media (min-width: 320px) and (max-width: 480px) {
+    #particles-js {
+        height: 420px; 
+    }
+
+    .Info {
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 20px;
+        width: 333px;
+    }
+
+    .Info img {
+        margin-left: 70px;
+        margin-right: 86px;
+        float: none;
+    }
+    
+    .Info p {
+        padding-right: 10px;
+    }
+
+    .Proyectos {
+        margin-top: 70px;
+        margin-left: 20px;        
+        font-weight: 600;
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+        display: flex;
+        align-items: center;
+    }
+    
+    .Proyectos-container {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+        object-fit: cover;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Proyecto {
+        margin-top: 40px;
+        width: 329px;
+    }
+
+    .Codigo {
+        width: 90px;
+    }
+    
+    .sitio{
+        width: 110px;
+    }
+
+    .Texto {
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .Imagen{
+        width: 330px;
+        height: 150px;
+    }
+
+    .icono {
+        width: 68;
+        height: 55;
+    }
+
+    p {
+        margin-right: 10px;
+    }
+
+    .Repositorio {
+        margin-left: 130px;
+    }
+
+    .Habilidades {
+        margin-left: 30px;
+    }
+
+    .lenguajes {
+        margin-left: 30px;
+    }
+
+    .Habilidades {
+        margin-left: 30px;
+    }
+
+    .lenguajes {
+        margin-left: 10px;
+    }
+
+    .interfaz {
+        margin-left: 20px;
+    }
+
+    .person {
+        margin-right: 20px;
+        flex-direction: column;
+    }
+
+    section {
+        margin-left: 25px;
+    }
+
+    form {
+        display: grid;
+        grid-gap: 1rem;
+        max-width: 250px;
+        width: 100%;
+        margin: auto;
+        padding: 30px;
+        border: 1px solid rgb(37, 36, 36);
+        background-image: linear-gradient(to right top, #111112, #161618, #1b1b1e, #1f1f24, #24242a);
+        box-shadow: 0 10px 20px rgb(58, 58, 58);
+        border-radius: .5rem;
+        transition: all 1s ease;
+    }
+
+    input {
+        color: white;
+        background: transparent;
+        border-radius: 1rem;
+        font-size: 1rem;
+        outline: none;
+        margin-bottom: 2rem;
+        letter-spacing: 1px;
+        padding: 10px;
+        border: 1px solid rgb(99, 97, 97);
+    }
+    
+    textarea {
+        color: white;
+        background: transparent;
+        border-radius: 1rem;
+        font-size: 1rem;
+        outline: none;
+        margin-bottom: 2rem;
+        letter-spacing: 1px;
+        padding: 10px;
+        resize: none;
+        border: 1px solid rgb(99, 97, 97);
+    }
+    
+    .buttom {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .mensaje {
+        border: none;
+        max-width: 200px;
+        padding: .8rem 1rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: 1s all;
+    }
+}
