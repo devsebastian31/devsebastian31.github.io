@@ -322,6 +322,40 @@ form {
     margin-left: 450px;
 }
 
+.diseñado {
+    margin-top: 70px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.diseñado a{
+	text-decoration: none;
+	color: white;
+}
+
+.diseñado a:hover {
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+
+.diseñado i {
+	border-radius: 50%;
+	border: 1px solid #373d48;
+	padding: 5px;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.redes a {
+    padding: 10px;
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .Info {
