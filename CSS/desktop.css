@@ -13,8 +13,6 @@ body {
     color: white;
     background-image: linear-gradient(to right top, #070707, #0d0d0e, #111113, #151517, #18181b);
     animation: fadeIn 2s ease-in-out;
-    margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
 }
 
