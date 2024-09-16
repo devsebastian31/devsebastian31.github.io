@@ -10,21 +10,9 @@
 body {
     color: white;
     background-image: linear-gradient(to right top, #070707, #0d0d0e, #111113, #151517, #18181b);
-    animation: fadeIn 2s ease-in-out;
     font-family: Arial, sans-serif;
 }
 
-/* Animación de desvanecimiento para el body */
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 
 
 #particles-js {

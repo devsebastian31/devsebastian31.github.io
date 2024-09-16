@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="CSS/desktop.css">
     <link rel="stylesheet" href="CSS/media.css">
     <link rel="stylesheet" href="CSS/normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap" rel="stylesheet">
@@ -22,8 +23,8 @@
     <title>devsebastian31</title>
 </head>
 <body>
-    <div id="particles-js"></div>
-    <div class="Info">
+    <div id="particles-js" data-aos="fade-right"></div>
+    <div class="Info" data-aos="fade-left">
         <img src="Img/Logo.png" alt style="float: right; height:200px; width: 200px;">
         <h1>Hola soy Dev Sebastian</h1>
         <p>Soy desarrollador web Full-stack, pero me especializo en el desarrollo Front-end. Me forme academicamente en udemy y de manera autodidacta durante los ultimos 6 años.</p>
@@ -33,11 +34,11 @@
             <a href="https://x.com/devsebastian31" target="_blank"><i class="fa-brands fa-twitter"></i> Twitter</a>
         </div>
     </div>
-    <div class="Habilidades">
+    <div class="Habilidades" data-aos="fade-right">
         <i class="fa-solid fa-user"></i>
         <p>Sobre mí</p>
     </div>
-    <div class="interfaz">
+    <div class="interfaz" data-aos="fade-right">
         <div class="person">
             <div>
                 <p>Me llamo Sebastian Alejandro Zhunaula Castillo. Mi camino en la programación comenzó a la temprana edad de 14 años. Inicié mi viaje utilizando PSeInt como mi primer pseudolenguaje, una experiencia que sentó las bases de mi fascinación por la resolución de problemas y la lógica de programación.</p>
@@ -54,7 +55,7 @@
         <p>Habilidades</p>
     </div>
     <h1 class="interfaz">Frontend</h1>
-    <div class="lenguajes">
+    <div class="lenguajes" data-aos="fade-up">
         <div class="lenguaje">
             <img src="Img/html.png" height="55px" width="70px"> 
             <p>HTML</p>
@@ -81,7 +82,7 @@
         </div>
     </div>
     <h1 class="interfaz">Backend</h1>
-    <div class="lenguajes">
+    <div class="lenguajes" data-aos="fade-up">
         <div class="lenguaje">
             <img src="Img/node.png" height="70px" width="70px"> 
             <p>Nodejs</p>
@@ -107,7 +108,7 @@
             <p>Docker</p>
         </div>
     </div>
-    <h1 class="interfaz">Otras herramientas</h1>
+    <h1 class="interfaz" data-aos="fade-up">Otras herramientas</h1>
     <div class="lenguajes">
         <div class="lenguaje">
             <img src="Img/git.png" height="70px" width="70px"> 
@@ -122,18 +123,18 @@
             <p>Jenkins</p>
         </div>
     </div>
-    <h1 class="interfaz">Aprendiendo</h1>
+    <h1 class="interfaz" data-aos="fade-up">Aprendiendo</h1>
     <div class="lenguajes">
         <div class="lenguaje">
             <img src="Img/c sharp.png" height="70px" width="65px"> 
             <p>C#</p>
         </div>
     </div>
-    <div class="Proyectos">
+    <div class="Proyectos" data-aos="zoom-in">
         <i class="fa-solid fa-code"></i>
         <p>Proyectos</p>
     </div>
-    <div class="Proyectos-container">
+    <div class="Proyectos-container" data-aos="zoom-in">
         <div class="Proyecto">
             <img src="https://github.com/devsebastian31/Proyectos-web/raw/master/Img/castimotors.png" class="Imagen">
             <div class="Texto">
@@ -192,11 +193,11 @@
     <div class="Repositorio">
         <a href="https://github.com/devsebastian31/Proyectos-web" target="_blank">Ver más</a>
     </div>
-    <div class="Habilidades">
+    <div class="Habilidades" data-aos="fade-up">
         <i class="fa-solid fa-envelope"></i>
         <p>Contáctame</p>
     </div>
-    <section id="contacto">
+    <section id="contacto" data-aos="fade-up">
         <form id="contactForm" action="https://formspree.io/f/xpwanglb" method="POST">
             <p>Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.</p>
             <input id="nombre" type="text" name="name" placeholder="Nombre | Name" required="">
@@ -217,6 +218,10 @@
         <span>Copyright © | Coded with devsebastian31</span>
     </div>
     <script src="JS/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <!-- JS Particles.js -->
     <script src="JS/particles.min.js"></script>
     <script src="JS/app.js"></script>
