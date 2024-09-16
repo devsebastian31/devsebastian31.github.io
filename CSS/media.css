@@ -274,7 +274,7 @@
     
     .Proyectos-container {
         margin-top: 10px;
-        margin-left: 40px;
+        margin-left: 10px;
         margin-bottom: 50px;
         object-fit: cover;
         display: flex;
@@ -283,7 +283,7 @@
 
     .Proyecto {
         margin-top: 40px;
-        width: 329px;
+        width: 300px;
     }
 
     .Codigo {
@@ -301,7 +301,7 @@
     }
 
     .Imagen{
-        width: 330px;
+        width: 300px;
         height: 150px;
     }
 
