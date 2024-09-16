@@ -242,7 +242,7 @@
   
 @media (min-width: 320px) and (max-width: 480px) {
     #particles-js {
-        height: 420px; 
+        height: 440px; 
     }
 
     .Info {
@@ -274,7 +274,7 @@
     
     .Proyectos-container {
         margin-top: 10px;
-        margin-left: 10px;
+        margin-left: 40px;
         margin-bottom: 50px;
         object-fit: cover;
         display: flex;
