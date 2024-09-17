@@ -231,6 +231,11 @@
         cursor: pointer;
         transition: 1s all;
     }
+
+    .certificado-img {
+        width: 450px;
+        height: 300px;
+    }
 }
 
 
@@ -395,5 +400,10 @@
         letter-spacing: 1px;
         cursor: pointer;
         transition: 1s all;
+    }
+
+    .certificado-img {
+        width: 350px;
+        height: 200px;
     }
 }
