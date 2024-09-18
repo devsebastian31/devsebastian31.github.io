@@ -403,7 +403,6 @@
     }
 
     .certificado-img {
-        object-fit: cover;
         width: 300px;
         height: 200px;
     }
