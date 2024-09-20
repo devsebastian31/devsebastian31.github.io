@@ -44,14 +44,27 @@ body {
     margin-top: 10px;
 }
 
-.Social a{
-	text-decoration: none;
-	color: white;
+.Social a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 7px; /* Espacio para el borde */
 }
 
-.Social a:hover {
-	text-decoration: underline;
-	text-decoration-color: white;
+.Social a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.4s ease, left 0.4s ease;
+}
+
+.Social a:hover::after {
+    width: 100%;
+    left: 0;
 }
 
 .Social i {
