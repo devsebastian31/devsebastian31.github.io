@@ -45,26 +45,29 @@ body {
 }
 
 .Social a {
-    position: relative;
+    position: relative; /* Necesario para el pseudo-elemento ::after en el span */
     text-decoration: none;
     color: white;
-    padding-bottom: 7px; /* Espacio para el borde */
 }
 
-.Social a::after {
-    content: '';
+.Social a span {
+    position: relative; /* Necesario para posicionar el pseudo-elemento ::after solo en el texto */
+}
+
+.Social a span::after {
+    content: ''; /* Pseudo-elemento vacío utilizado para el borde */
     position: absolute;
-    left: 50%;
+    left: 50%; /* Coloca el borde en el centro del texto */
     bottom: 0;
     width: 0;
     height: 2px;
     background-color: white;
-    transition: width 0.4s ease, left 0.4s ease;
+    transition: width 0.4s ease, left 0.4s ease; /* Transición suave para el borde */
 }
 
-.Social a:hover::after {
-    width: 100%;
-    left: 0;
+.Social a span:hover::after {
+    width: 100%; /* Al pasar el cursor, el borde se expande por todo el texto */
+    left: 0; /* Mueve el borde a la izquierda para cubrir todo el texto */
 }
 
 .Social i {
