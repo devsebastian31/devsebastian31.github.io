@@ -48,7 +48,6 @@ body {
     position: relative; /* Necesario para el pseudo-elemento ::after en el span */
     text-decoration: none;
     color: white;
-    
 }
 
 .Social a span {
