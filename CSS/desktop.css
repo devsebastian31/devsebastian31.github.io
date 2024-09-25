@@ -196,6 +196,7 @@ body {
 
 .Proyecto {
     margin-top: 50px;
+    margin-bottom: 40px;
     margin-right: 100px;
     border: 1px solid rgb(37, 36, 36);
     background-image: linear-gradient(to right top, #111112, #161618, #1b1b1e, #1f1f24, #24242a);
