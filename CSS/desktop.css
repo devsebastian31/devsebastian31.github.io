@@ -13,6 +13,20 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Estilos para navegadores basados en WebKit */
+::-webkit-scrollbar {
+    width: 11px; /* Ancho del scrollbar */
+}
+
+/* Fondo de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+    background-image: linear-gradient(to right top, #070707, #0d0d0e, #111113, #151517, #18181b); /* Color del fondo */
+}
+
+/* Color de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+    background-color: white; /* Color de la barra */
+}
 
 
 #particles-js {
