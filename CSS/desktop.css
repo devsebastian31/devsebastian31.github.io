@@ -11,7 +11,6 @@ body {
     color: white;
     background-image: linear-gradient(to right top, #070707, #0d0d0e, #111113, #151517, #18181b);
     font-family: Arial, sans-serif;
-    scroll-behavior: smooth;
 }
 
 /* Estilos para navegadores basados en WebKit */
@@ -26,16 +25,9 @@ body {
 
 /* Color de la barra de desplazamiento */
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(171, 163, 163); /* Color de la barra */
-    border-radius: 6px;
+    background-color: rgb(232, 226, 226); /* Color de la barra */
+    border-radius: 4px;
 }
-
-/* Restaurar las flechas sin cambiar su estilo predeterminado */
-::-webkit-scrollbar-button {
-    background-color: rgb(171, 163, 163); /* Mantener fondo transparente para las flechas */
-}
-
-
 
 
 #particles-js {
