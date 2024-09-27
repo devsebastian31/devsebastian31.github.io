@@ -219,13 +219,30 @@ body {
     width: 500px;
     height: 100%;
     transition: all 1s ease;
+  --s: 200px; /* control the size */
+  --c1: #1d1d1d;
+  --c2: #4e4f51;
+  --c3: #3c3c3c;
+
+  background: repeating-conic-gradient(
+        from 30deg,
+        #0000 0 120deg,
+        var(--c3) 0 180deg
+      )
+      calc(0.5 * var(--s)) calc(0.5 * var(--s) * 0.577),
+    repeating-conic-gradient(
+      from 30deg,
+      var(--c1) 0 60deg,
+      var(--c2) 0 120deg,
+      var(--c3) 0 180deg
+    );
+  background-size: var(--s) calc(var(--s) * 0.577);
 }
 
 .Proyecto:hover {
     transform: scale(1.1); /* Aumenta el tamaño */
     border: 1px solid rgb(99, 97, 97);
     box-shadow: 0 15px 25px rgb(58, 58, 58);
-    background-image: linear-gradient(to right top, #161618, #1b1b1e, #202025, #25252b, #2a2a32);
 }
 
 .Texto {
