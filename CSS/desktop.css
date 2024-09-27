@@ -6,7 +6,6 @@
     word-spacing: 1px;
 }
 
-/* Aplicar la animación al body */
 body {
     color: white;
     background-image: linear-gradient(to right top, #070707, #0d0d0e, #111113, #151517, #18181b);
