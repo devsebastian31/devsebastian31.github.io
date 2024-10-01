@@ -103,10 +103,11 @@ body {
 .Foto img {
     margin-right: 20px;
 	object-fit: cover;
-	border-radius: 50%;
-    width: 20rem;
+	border-radius: 20px;
+    width: 21rem;
     height: 18rem;
     border: 2px solid rgb(99, 97, 97);
+    box-shadow: 0 10px 20px rgb(58, 58, 58);
 }
 
 .person {
@@ -148,7 +149,6 @@ body {
 
 
 .lenguaje {
-    border-radius: .5rem;
     border: 1px solid rgb(37, 36, 36);
     background-image: linear-gradient(to right top, #111112, #161618, #1b1b1e, #1f1f24, #24242a);
     box-shadow: 0 10px 20px rgb(58, 58, 58);
