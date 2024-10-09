@@ -138,7 +138,7 @@ body {
 
 .lenguajes {
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-bottom: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
@@ -153,8 +153,7 @@ body {
     background-image: linear-gradient(to right top, #111112, #161618, #1b1b1e, #1f1f24, #24242a);
     box-shadow: 0 10px 20px rgb(58, 58, 58);
     padding: 7px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
