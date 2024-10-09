@@ -60,11 +60,6 @@
         font-size: 20px;
     }
 
-    .icono{
-        width: 68;
-        height: 55;
-    }
-
     .Repositorio {
         margin-left: 350px;
     }
@@ -92,12 +87,12 @@
     .Info {
         display: inline-block;
         margin-top:30px;
-        margin-left: 20px;
-        width: 500px;
+        margin-left: 30px;
+        width: 450px;
     }
 
     .Info img {
-        margin-left: 150px;
+        margin-right: 200px;
         float: none;
     }
 
@@ -146,11 +141,6 @@
     .Imagen{
         width: 450px;
         height: 200px;
-    }
-
-    .icono {
-        width: 68;
-        height: 55;
     }
 
     .Repositorio {
@@ -308,11 +298,6 @@
     .Imagen{
         width: 300px;
         height: 150px;
-    }
-
-    .icono {
-        width: 68;
-        height: 55;
     }
 
     p {
