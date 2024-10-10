@@ -30,7 +30,7 @@ body {
 
 
 #particles-js {
-	height: 425px; 
+	height: 415px; 
 	width: 100%;
     position: absolute;
     border-bottom: 1px solid #373d48;
@@ -38,9 +38,38 @@ body {
 
 .Info {
     display: inline-block;
-    margin-top: 120px;
+    margin-top: 100px;
     margin-left: 300px;
     opacity: .99;
+}
+
+
+.typing-container {
+    font-size: 4rem;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#typing-text {
+    border-right: 4px solid orange;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    height: 16px;
+    max-width: 0; /* Inicialmente no se muestra nada */
+    animation: typing 6s steps(24, end) infinite; /* Un ciclo que incluye escribir y borrar */
+}
+
+@keyframes typing {
+    0% { max-width: 0; }          /* Empieza sin mostrar nada */
+    50% { max-width: 50ch; }      /* Al 50%, se muestra todo el texto */
+    100% { max-width: 0; }        /* Al 100%, se borra el texto */
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
 }
 
 .Info p {
@@ -182,8 +211,14 @@ body {
     justify-content: center;
 }
 
+
 .certificado {
     padding: 10px;
+}
+
+.certificado-img {
+    width: 530px;
+    height: 380px;
 }
 
 .Proyectos {

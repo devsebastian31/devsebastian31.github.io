@@ -1,3 +1,22 @@
+const text = "DESARROLLADOR WEB FULL-STACK"; // Define la cadena de texto que se va a escribir.
+let index = 0; // Inicializa el índice que se utilizará para recorrer el texto, empezando desde el primer carácter.
+let speed = 100; // Establece la velocidad de escritura (en milisegundos) entre cada carácter que se muestra.
+
+function typeWriter() {
+    if (index < text.length) { // Verifica si el índice actual es menor que la longitud del texto (es decir, si quedan más caracteres por escribir).
+        document.getElementById("typing-text").textContent += text.charAt(index); 
+        // Añade el carácter actual del texto (en la posición `index`) al elemento HTML con el id "typing-text".
+        index++; // Incrementa el índice para que en la próxima llamada se escriba el siguiente carácter.
+        setTimeout(typeWriter, speed); // Usa setTimeout para llamar de nuevo a la función `typeWriter` después de un intervalo definido por `speed` (en este caso, 100ms).
+    }
+}
+
+window.onload = function() {
+    setTimeout(typeWriter, 500); // Al cargar la página, espera 500ms antes de comenzar a llamar a la función `typeWriter` para iniciar la animación de escritura.
+};
+
+
+
 // Espera a que el documento HTML se cargue completamente antes de ejecutar el código JavaScript
 document.addEventListener('DOMContentLoaded', function () {
 

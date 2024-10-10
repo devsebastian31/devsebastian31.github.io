@@ -5,7 +5,7 @@
   
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     #particles-js {
-        height: 440px; 
+        height: 415px; 
     }
 
     .Info {
@@ -81,7 +81,7 @@
   
 @media (min-width: 481px) and (max-width: 767px) {
     #particles-js {
-        height: 440px;
+        height: 485px; 
     }
 
     .Info {
@@ -237,7 +237,7 @@
   
 @media (min-width: 320px) and (max-width: 480px) {
     #particles-js {
-        height: 440px; 
+        height: 485px;  
     }
 
     .Info {
