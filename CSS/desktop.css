@@ -45,7 +45,6 @@ body {
 
 
 .typing-container {
-    font-size: 4rem;
     color: #333;
     display: flex;
     justify-content: center;
@@ -53,11 +52,12 @@ body {
 }
 
 #typing-text {
+    font-size: 18px;
     border-right: 4px solid orange;
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
-    height: 16px;
+    height: 17px;
     max-width: 0; /* Inicialmente no se muestra nada */
     animation: typing 6s steps(24, end) infinite; /* Un ciclo que incluye escribir y borrar */
 }
