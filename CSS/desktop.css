@@ -33,7 +33,7 @@ body {
 	height: 415px; 
 	width: 100%;
     position: absolute;
-    border-bottom: 1px solid #373d48;
+    border-bottom: 2px solid #373d48;
 }
 
 .Info {
@@ -135,7 +135,7 @@ body {
 	border-radius: 20px;
     width: 21rem;
     height: 18rem;
-    border: 2px solid rgb(99, 97, 97);
+    border: 3px solid #10a3d3;
     box-shadow: 0 10px 20px rgb(58, 58, 58);
 }
 
