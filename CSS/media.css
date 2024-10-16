@@ -70,6 +70,11 @@
         align-items: center;
         gap: 2rem;
     }
+
+    .scroller {
+        max-width: 600px;
+        margin-left: 100px;
+    }
 }
 
 
@@ -226,6 +231,11 @@
         width: 450px;
         height: 300px;
     }
+
+    .scroller {
+        max-width: 500px;
+        margin-left: 50px;
+    }
 }
 
 
@@ -237,14 +247,14 @@
   
 @media (min-width: 320px) and (max-width: 480px) {
     #particles-js {
-        height: 485px;  
+        height: 495px;  
     }
 
     .Info {
         display: inline-block;
         margin-top: 30px;
         margin-left: 20px;
-        width: 333px;
+        width: 320px;
     }
 
     .Info img {
@@ -390,5 +400,10 @@
     .certificado-img {
         width: 300px;
         height: 200px;
+    }
+
+    .scroller {
+        max-width: 280px;
+        margin-left: 30px;
     }
 }
