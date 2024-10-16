@@ -188,17 +188,6 @@ body {
     background-image: linear-gradient(to right top, #161618, #1b1b1e, #202025, #25252b, #2a2a32);
 }
 
-.certificados {
-    margin-bottom: 50px;
-    object-fit: cover;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en múltiples filas */
-    align-items: center;
-    justify-content: center;
-}
-
-
 .certificado {
     padding: 10px;
 }
