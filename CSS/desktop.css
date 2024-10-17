@@ -10,8 +10,6 @@ body {
     color: white;
     background-image: linear-gradient(to right top, #070707, #0d0d0e, #111113, #151517, #18181b);
     font-family: Arial, sans-serif;
-    backdrop-filter: blur(10px); /* Aplica el efecto de difuminado */
-    -webkit-backdrop-filter: blur(10px); /* Soporte para navegadores webkit */
 }
 
 /* Estilos para navegadores basados en WebKit */
