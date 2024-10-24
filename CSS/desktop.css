@@ -136,7 +136,6 @@ body {
 	border-radius: 20px;
     width: 21rem;
     height: 18rem;
-    border: 3px solid #da1111;
     box-shadow: 0 15px 25px rgb(58, 58, 58);
 }
 
@@ -440,7 +439,6 @@ textarea {
     text-decoration: none;
 	color: white;
 }
-
 
 
 
