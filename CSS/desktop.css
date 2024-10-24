@@ -118,6 +118,7 @@ body {
 	padding: 7px;
 }
 
+
 .interfaz {
     margin-left: 100px;
     flex-direction: column;
@@ -220,7 +221,6 @@ body {
     margin-bottom: 40px;
     margin-right: 100px;
     border: 1px solid rgb(37, 36, 36);
-    background-color: #1c1c1e;
     box-shadow: 0 15px 25px rgb(58, 58, 58);
     border-radius: .5rem;
     display: flex;
@@ -228,6 +228,24 @@ body {
     width: 450px;
     height: 100%;
     transition: all 1s ease;
+    --s: 200px; /* control the size */
+    --c1: #171717;
+    --c2: #3c3c3d;
+    --c3: #303030;
+  
+    background: repeating-conic-gradient(
+          from 30deg,
+          #0000 0 120deg,
+          var(--c3) 0 180deg
+        )
+        calc(0.5 * var(--s)) calc(0.5 * var(--s) * 0.577),
+      repeating-conic-gradient(
+        from 30deg,
+        var(--c1) 0 60deg,
+        var(--c2) 0 120deg,
+        var(--c3) 0 180deg
+      );
+    background-size: var(--s) calc(var(--s) * 0.577);
 }
 
 .Proyecto:hover {
