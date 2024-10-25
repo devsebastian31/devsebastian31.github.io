@@ -44,6 +44,7 @@
 
     .Proyecto {
         margin-top: 40px;
+        height: 520px;
     }
 
     .Codigo {
@@ -123,6 +124,7 @@
         object-fit: cover;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .Proyecto {
@@ -226,11 +228,6 @@
         transition: 1s all;
     }
 
-    .certificado-img {
-        width: 450px;
-        height: 300px;
-    }
-
     .scroller {
         max-width: 500px;
         margin-left: 50px;
@@ -283,6 +280,7 @@
         object-fit: cover;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .Proyecto {
@@ -391,6 +389,19 @@
     }
 
     .certificado-img {
+        display: none;
+    }
+
+    .certificados-movil {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .certificado-movil {
+        object-fit: cover;
+        align-items: center;
         width: 300px;
         height: 200px;
     }
