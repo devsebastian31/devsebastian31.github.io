@@ -214,6 +214,7 @@ body {
 }
 
 .Proyecto {
+    position: relative;
     margin-top: 50px;
     margin-bottom: 40px;
     margin-right: 50px;
@@ -223,12 +224,12 @@ body {
     display: flex;
     flex-direction: column;
     width: 350px;
-    height: 100%;
+    height: 440px;
     transition: all 1s ease;
     --s: 200px; /* control the size */
-    --c1: #171717;
-    --c2: #3c3c3d;
-    --c3: #303030;
+    --c1: #181818;
+    --c2: #323232;
+    --c3: #262626;
   
     background: repeating-conic-gradient(
           from 30deg,
@@ -260,6 +261,7 @@ body {
 .Imagen {
     border-radius: 9px 9px 0 0;
     width: 100%;
+    height: 170px;
 }
 
 .link {
@@ -267,6 +269,8 @@ body {
 }
 
 .Codigo {
+    position: absolute;
+    bottom: 10px;
     width: 70px;
     padding: 9px 15px;
     margin-top: 10px;
@@ -276,6 +280,7 @@ body {
     color: black;
     font-weight: 600;
     transition: all 0.3s ease;
+    margin-top: auto; /* Empuja esta caja al final */
 }
 
 .Codigo:hover {
@@ -313,10 +318,12 @@ body {
 
 
 .sitio {
+    position: absolute;
+    bottom: 10px;
     width: 80px;
     padding: 9px 15px;
     margin-top: 10px;
-    margin-right: 20px;
+    margin-left: 115px;
     border-radius: .5rem;
     background-color: white;
     color: black;
