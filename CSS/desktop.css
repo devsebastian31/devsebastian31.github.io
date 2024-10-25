@@ -238,18 +238,59 @@ body {
     box-shadow: 0 15px 25px rgb(58, 58, 58);
 }
 
-.certificado {
-    padding: 10px;
+
+.Formacion-container {
+    margin-left: 100px;
+    margin-bottom: 50px;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan en múltiples filas */
 }
 
-.certificados-movil {
-    display: none;
+.Formacion {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+    border: 1px solid rgb(37, 36, 36);
+    box-shadow: 0 15px 25px rgb(58, 58, 58);
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 270px;
+    padding: 1rem;
+    justify-content: space-between;
+    transition: all 1s ease;
+    --s: 200px; /* control the size */
+    --c1: #181818;
+    --c2: #323232;
+    --c3: #262626;
+  
+    background: repeating-conic-gradient(
+          from 30deg,
+          #0000 0 120deg,
+          var(--c3) 0 180deg
+        )
+        calc(0.5 * var(--s)) calc(0.5 * var(--s) * 0.577),
+      repeating-conic-gradient(
+        from 30deg,
+        var(--c1) 0 60deg,
+        var(--c2) 0 120deg,
+        var(--c3) 0 180deg
+      );
+    background-size: var(--s) calc(var(--s) * 0.577);
 }
 
-.certificado-img {
-    width: 500px;
-    height: 350px;
+.Formacion:hover {
+    transform: scale(1.1); /* Aumenta el tamaño */
+    border: 1px solid rgb(99, 97, 97);
+    box-shadow: 0 15px 25px rgb(58, 58, 58);
 }
+
 
 .Proyectos {
     margin-top: 150px;

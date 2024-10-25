@@ -388,24 +388,6 @@
         transition: 1s all;
     }
 
-    .certificado-img {
-        display: none;
-    }
-
-    .certificados-movil {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-
-    .certificado-movil {
-        object-fit: cover;
-        align-items: center;
-        width: 300px;
-        height: 200px;
-    }
-
     .scroller {
         max-width: 310px;
         margin-left: 30px;
