@@ -170,6 +170,10 @@
         margin-right: 20px;
     }
 
+    .Formacion-container {
+        margin-left: 50px;
+    }
+
     section {
         margin-left: 50px;
     }
@@ -328,6 +332,10 @@
     .person {
         margin-right: 20px;
         flex-direction: column;
+    }
+
+    .Formacion-container {
+        margin-left: 50px;
     }
 
     section {
