@@ -158,7 +158,6 @@ body {
     margin-left: 100px;
     font-weight: 600;
     font-size: 2.5rem;
-    margin-bottom: 1rem;
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -169,7 +168,7 @@ body {
     background-color: #1c1c1e;
     box-shadow: 0 10px 20px rgb(58, 58, 58);
     padding: 7px;
-    margin: 10px;
+    margin: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,25 +205,24 @@ body {
 }
 
 .Proyectos-container {
+    margin-left: 100px;
     margin-bottom: 50px;
     object-fit: cover;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; /* Permitir que los elementos se envuelvan en múltiples filas */
-    align-items: center;
-    justify-content: center;
 }
 
 .Proyecto {
     margin-top: 50px;
     margin-bottom: 40px;
-    margin-right: 100px;
+    margin-right: 50px;
     border: 1px solid rgb(37, 36, 36);
     box-shadow: 0 15px 25px rgb(58, 58, 58);
     border-radius: .5rem;
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 350px;
     height: 100%;
     transition: all 1s ease;
     --s: 200px; /* control the size */
@@ -443,7 +441,7 @@ textarea {
 
 
 .scroller {
-    max-width: 1010px;
+    max-width: 1030px;
     margin-left: 100px;
 }
 
