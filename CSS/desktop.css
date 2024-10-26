@@ -272,9 +272,9 @@ html::-webkit-scrollbar-thumb {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 250px;
-    height: 270px;
-    padding: 1rem;
+    width: 240px;
+    height: 260px;
+    padding: 10px;
     justify-content: space-between;
     transition: all 1s ease;
     --s: 200px; /* control the size */
@@ -302,7 +302,6 @@ html::-webkit-scrollbar-thumb {
     border: 1px solid rgb(99, 97, 97);
     box-shadow: 0 15px 25px rgb(58, 58, 58);
 }
-
 
 .Proyectos {
     margin-top: 150px;
