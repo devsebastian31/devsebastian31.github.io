@@ -12,20 +12,32 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Estilos para navegadores basados en WebKit */
-::-webkit-scrollbar {
-    width: 9px; /* Ancho del scrollbar */
+:root {
+    --white: #FFFFFF;
+    --black: #171717;
 }
 
-/* Fondo de la barra de desplazamiento */
-::-webkit-scrollbar-track {
-    background-image: linear-gradient(to right top, #070707, #0d0d0e, #111113, #151517, #18181b); /* Color del fondo */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--white) var(--black);
+    scroll-behavior: smooth;
 }
 
-/* Color de la barra de desplazamiento */
-::-webkit-scrollbar-thumb {
-    background-color: rgb(232, 226, 226); /* Color de la barra */
-    border-radius: 4px;
+html::-webkit-scrollbar {
+    width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: var(--black);
+}
+
+
+html::-webkit-scrollbar-thumb {
+    background-color: var(--black);;
+}
+
+::selection {
+    background-color: white;
 }
 
 
