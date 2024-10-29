@@ -101,7 +101,7 @@
 
     .Info img {
         margin-right: 200px;
-        float: none;
+        float: center;
     }
 
     .Info p {
@@ -254,7 +254,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
 
     #particles-js {
-        height: 540px;
+        height: 495px;
         border-bottom: 1px solid #ffffff;
     }
 
@@ -263,12 +263,12 @@
         margin-top: 30px;
         margin-left: 20px;
         margin-bottom: 0px;
-        width: 320px;
+        width: 340px;
     }
 
     .Info img {
         margin-right: 86px;
-        float: none;
+        float: center;
     }
     
     .Info p {
