@@ -42,7 +42,7 @@ html::-webkit-scrollbar-thumb {
 
 
 #particles-js {
-	height: 530px; 
+	height: 606px; 
 	width: 100%;
     position: absolute;
     border-bottom: 2px solid #373d48;
@@ -50,7 +50,7 @@ html::-webkit-scrollbar-thumb {
 
 .Info {
     display: inline-block;
-    margin-top: 125px;
+    margin-top: 135px;
     margin-left: 300px;
     margin-bottom: 150px;
     opacity: .99;
