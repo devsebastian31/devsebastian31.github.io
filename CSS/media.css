@@ -108,6 +108,11 @@
         padding-right: 120px;
     }
 
+    .logo {
+        height:200px; 
+        width: 200px;
+    }
+
     .Proyectos {
         margin-top: 100px;
         margin-left: 50px;
@@ -249,7 +254,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
 
     #particles-js {
-        height: 495px;
+        height: 540px;
         border-bottom: 1px solid #ffffff;
     }
 
@@ -262,13 +267,18 @@
     }
 
     .Info img {
-        margin-left: 70px;
         margin-right: 86px;
         float: none;
     }
     
     .Info p {
         padding-right: 10px;
+        font-size: 14px;
+    }
+
+    .logo {
+        height:200px; 
+        width: 200px;
     }
 
     .Proyectos {

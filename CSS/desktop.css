@@ -53,6 +53,13 @@ html::-webkit-scrollbar-thumb {
     margin-left: 300px;
     margin-bottom: 160px;
     opacity: .99;
+    font-size: 17px;
+}
+
+.logo {
+    float: right; 
+    height:215px; 
+    width: 215px;
 }
 
 
