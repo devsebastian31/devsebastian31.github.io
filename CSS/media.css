@@ -246,8 +246,10 @@
 */
   
 @media (min-width: 320px) and (max-width: 480px) {
+
     #particles-js {
-        height: 495px;  
+        height: 495px;
+        border-bottom: 2px solid #88898a;
     }
 
     .Info {
