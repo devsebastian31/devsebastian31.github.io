@@ -88,13 +88,14 @@
   
 @media (min-width: 481px) and (max-width: 767px) {
     #particles-js {
-        height: 485px; 
+        height: 485px;
     }
 
     .Info {
         display: inline-block;
         margin-top:30px;
         margin-left: 30px;
+        margin-bottom: 0px;
         width: 450px;
     }
 
@@ -249,13 +250,14 @@
 
     #particles-js {
         height: 495px;
-        border-bottom: 2px solid #88898a;
+        border-bottom: 1px solid #ffffff;
     }
 
     .Info {
         display: inline-block;
         margin-top: 30px;
         margin-left: 20px;
+        margin-bottom: 0px;
         width: 320px;
     }
 
@@ -324,6 +326,7 @@
     }
 
     .Subtítulo {
+
         margin-left: 30px;
     }
 
