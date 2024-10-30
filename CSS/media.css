@@ -254,32 +254,37 @@
 @media (min-width: 320px) and (max-width: 480px) {
 
     #particles-js {
-        height: 500px;
+        height: 530px;
         border-bottom: 1px solid #ffffff;
     }
 
     .Info {
-        display: flex;
+        display: inline-block;
         margin-top: 30px;
-        margin-left: 20px;
+        margin-left: 15px;
         margin-bottom: 0px;
-        flex-direction: column;
-        justify-content: center;
         width: 300px;
     }
 
     .Info img {
-        float: center;
+        margin-right: 0px;
+        float: none;
     }
     
     .Info p {
         padding-right: 10px;
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .logo {
         height:200px; 
         width: 200px;
+    }
+
+    .Foto img {
+        width: 18rem;
+        height: 15rem;
+        margin-right: 0px;
     }
 
     .Proyectos {
@@ -294,7 +299,7 @@
     
     .Proyectos-container {
         margin-top: 10px;
-        margin-left: 20px;
+        margin-left: 19px;
         margin-bottom: 50px;
         object-fit: cover;
         display: flex;
@@ -304,17 +309,17 @@
 
     .Proyecto {
         margin-top: 40px;
-        width: 300px;
+        width: 280px;
         height: 520px;
     }
 
     .Codigo {
-        width: 90px;
+        width: 83px;
     }
     
     .sitio{
-        width: 110px;
-        margin-left: 135px;
+        width: 105px;
+        margin-left: 125px;
     }
 
     .Texto {
@@ -324,7 +329,7 @@
     }
 
     .Imagen{
-        width: 300px;
+        width: 280px;
         height: 150px;
     }
 
