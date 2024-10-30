@@ -266,6 +266,15 @@
         width: 300px;
     }
 
+    .Container-logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Info h1 {
+        text-align: center;
+    }
+
     .Info img {
         margin-right: 0px;
         float: none;
