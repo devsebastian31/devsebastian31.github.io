@@ -254,7 +254,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
 
     #particles-js {
-        height: 530px;
+        height: 460px;
         border-bottom: 1px solid #ffffff;
     }
 
@@ -286,8 +286,8 @@
     }
 
     .logo {
-        height:200px; 
-        width: 200px;
+        height:180px; 
+        width: 180px;
     }
 
     .Foto img {
@@ -351,7 +351,6 @@
     }
 
     .Subtítulo {
-
         margin-left: 30px;
     }
 
