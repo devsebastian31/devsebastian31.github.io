@@ -254,13 +254,13 @@
 @media (min-width: 320px) and (max-width: 480px) {
 
     #particles-js {
-        height: 460px;
+        height: 550px;
         border-bottom: 1px solid #ffffff;
     }
 
     .Info {
         display: inline-block;
-        margin-top: 30px;
+        margin-top: 70px;
         margin-left: 15px;
         margin-bottom: 0px;
         width: 300px;
@@ -282,7 +282,6 @@
     
     .Info p {
         padding-right: 10px;
-        font-size: 14px;
     }
 
     .logo {
@@ -351,6 +350,7 @@
     }
 
     .Subtítulo {
+        margin-top: 180px;
         margin-left: 30px;
     }
 
