@@ -331,8 +331,7 @@ html::-webkit-scrollbar-thumb {
 
 .Proyecto {
     position: relative;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     margin-right: 50px;
     border: 1px solid rgb(37, 36, 36);
     box-shadow: 0 15px 25px rgb(58, 58, 58);
