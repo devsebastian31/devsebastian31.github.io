@@ -184,7 +184,7 @@ html::-webkit-scrollbar-thumb {
 
 .scroller {
     max-width: 1090px;
-    max-height: 500px;
+    height: 160px;
     margin-left: 100px;
 }
 
