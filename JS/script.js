@@ -16,45 +16,6 @@ window.onload = function() {
 };
 
 
-
-
-// Selecciona todos los elementos que tienen la clase "scroller"
-const scrollers = document.querySelectorAll(".scroller");
-
-// Si el usuario no ha habilitado la opción de reducir las animaciones en el sistema, se añade la animación
-if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-  addAnimation(); // Llama a la función que agrega la animación
-}
-
-// Función que agrega la animación a los elementos seleccionados
-function addAnimation() {
-  // Recorre cada uno de los elementos con la clase "scroller"
-  scrollers.forEach((scroller) => {
-    // Añade el atributo "data-animated" con el valor "true" a cada elemento con la clase "scroller"
-    scroller.setAttribute("data-animated", true);
-
-    // Selecciona el elemento interno con la clase "scroller__inner" dentro del contenedor "scroller"
-    const scrollerInner = scroller.querySelector(".scroller__inner");
-
-    // Convierte los hijos del elemento "scroller__inner" en un array
-    const scrollerContent = Array.from(scrollerInner.children);
-
-    // Para cada elemento dentro del "scroller__inner", realiza lo siguiente:
-    scrollerContent.forEach((item) => {
-      // Clona el elemento actual (crea una copia)
-      const duplicatedItem = item.cloneNode(true);
-
-      // Añade el atributo "aria-hidden" con el valor "true" al elemento duplicado
-      // Esto indica que el contenido es visualmente accesible pero no debería ser leído por los lectores de pantalla
-      duplicatedItem.setAttribute("aria-hidden", true);
-
-      // Añade el elemento duplicado al final de "scroller__inner"
-      scrollerInner.appendChild(duplicatedItem);
-    });
-  });
-}
-
-
 // Espera a que el documento HTML se cargue completamente antes de ejecutar el código JavaScript
 document.addEventListener('DOMContentLoaded', function () {
 

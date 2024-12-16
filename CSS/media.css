@@ -167,6 +167,10 @@
         margin-left: 50px;
     }
 
+    .Caja-container {
+        margin-left: 50px;
+    }
+
     .interfaz {
         margin-left: 40px;
     }
@@ -351,6 +355,10 @@
 
     .Subtítulo {
         margin-top: 180px;
+        margin-left: 30px;
+    }
+
+    .Caja-container{
         margin-left: 30px;
     }
 
